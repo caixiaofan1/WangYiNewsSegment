@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23363CA11CCB7D7B000366BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23363CA01CCB7D7B000366BD /* main.m */; };
+		23363CA41CCB7D7B000366BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23363CA31CCB7D7B000366BD /* AppDelegate.m */; };
+		23363CA71CCB7D7B000366BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23363CA61CCB7D7B000366BD /* ViewController.m */; };
+		23363CAA1CCB7D7B000366BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23363CA81CCB7D7B000366BD /* Main.storyboard */; };
+		23363CAC1CCB7D7B000366BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23363CAB1CCB7D7B000366BD /* Assets.xcassets */; };
+		23363CAF1CCB7D7B000366BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23363CAD1CCB7D7B000366BD /* LaunchScreen.storyboard */; };
+		23363CBA1CCB7D7B000366BD /* wangyiNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23363CB91CCB7D7B000366BD /* wangyiNewsTests.m */; };
+		23363CC51CCB7D7B000366BD /* wangyiNewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23363CC41CCB7D7B000366BD /* wangyiNewsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23363CB61CCB7D7B000366BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23363C941CCB7D7B000366BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23363C9B1CCB7D7B000366BD;
+			remoteInfo = wangyiNews;
+		};
+		23363CC11CCB7D7B000366BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23363C941CCB7D7B000366BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23363C9B1CCB7D7B000366BD;
+			remoteInfo = wangyiNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23363C9C1CCB7D7B000366BD /* wangyiNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wangyiNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23363CA01CCB7D7B000366BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23363CA21CCB7D7B000366BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		23363CA31CCB7D7B000366BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		23363CA51CCB7D7B000366BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		23363CA61CCB7D7B000366BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		23363CA91CCB7D7B000366BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23363CAB1CCB7D7B000366BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23363CAE1CCB7D7B000366BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23363CB01CCB7D7B000366BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23363CB51CCB7D7B000366BD /* wangyiNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wangyiNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23363CB91CCB7D7B000366BD /* wangyiNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wangyiNewsTests.m; sourceTree = "<group>"; };
+		23363CBB1CCB7D7B000366BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23363CC01CCB7D7B000366BD /* wangyiNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wangyiNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23363CC41CCB7D7B000366BD /* wangyiNewsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wangyiNewsUITests.m; sourceTree = "<group>"; };
+		23363CC61CCB7D7B000366BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23363C991CCB7D7B000366BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23363CB21CCB7D7B000366BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23363CBD1CCB7D7B000366BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23363C931CCB7D7B000366BD = {
+			isa = PBXGroup;
+			children = (
+				23363C9E1CCB7D7B000366BD /* wangyiNews */,
+				23363CB81CCB7D7B000366BD /* wangyiNewsTests */,
+				23363CC31CCB7D7B000366BD /* wangyiNewsUITests */,
+				23363C9D1CCB7D7B000366BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23363C9D1CCB7D7B000366BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23363C9C1CCB7D7B000366BD /* wangyiNews.app */,
+				23363CB51CCB7D7B000366BD /* wangyiNewsTests.xctest */,
+				23363CC01CCB7D7B000366BD /* wangyiNewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23363C9E1CCB7D7B000366BD /* wangyiNews */ = {
+			isa = PBXGroup;
+			children = (
+				23363CA21CCB7D7B000366BD /* AppDelegate.h */,
+				23363CA31CCB7D7B000366BD /* AppDelegate.m */,
+				23363CA51CCB7D7B000366BD /* ViewController.h */,
+				23363CA61CCB7D7B000366BD /* ViewController.m */,
+				23363CA81CCB7D7B000366BD /* Main.storyboard */,
+				23363CAB1CCB7D7B000366BD /* Assets.xcassets */,
+				23363CAD1CCB7D7B000366BD /* LaunchScreen.storyboard */,
+				23363CB01CCB7D7B000366BD /* Info.plist */,
+				23363C9F1CCB7D7B000366BD /* Supporting Files */,
+			);
+			path = wangyiNews;
+			sourceTree = "<group>";
+		};
+		23363C9F1CCB7D7B000366BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23363CA01CCB7D7B000366BD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23363CB81CCB7D7B000366BD /* wangyiNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				23363CB91CCB7D7B000366BD /* wangyiNewsTests.m */,
+				23363CBB1CCB7D7B000366BD /* Info.plist */,
+			);
+			path = wangyiNewsTests;
+			sourceTree = "<group>";
+		};
+		23363CC31CCB7D7B000366BD /* wangyiNewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23363CC41CCB7D7B000366BD /* wangyiNewsUITests.m */,
+				23363CC61CCB7D7B000366BD /* Info.plist */,
+			);
+			path = wangyiNewsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23363C9B1CCB7D7B000366BD /* wangyiNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23363CC91CCB7D7B000366BD /* Build configuration list for PBXNativeTarget "wangyiNews" */;
+			buildPhases = (
+				23363C981CCB7D7B000366BD /* Sources */,
+				23363C991CCB7D7B000366BD /* Frameworks */,
+				23363C9A1CCB7D7B000366BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wangyiNews;
+			productName = wangyiNews;
+			productReference = 23363C9C1CCB7D7B000366BD /* wangyiNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23363CB41CCB7D7B000366BD /* wangyiNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23363CCC1CCB7D7B000366BD /* Build configuration list for PBXNativeTarget "wangyiNewsTests" */;
+			buildPhases = (
+				23363CB11CCB7D7B000366BD /* Sources */,
+				23363CB21CCB7D7B000366BD /* Frameworks */,
+				23363CB31CCB7D7B000366BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23363CB71CCB7D7B000366BD /* PBXTargetDependency */,
+			);
+			name = wangyiNewsTests;
+			productName = wangyiNewsTests;
+			productReference = 23363CB51CCB7D7B000366BD /* wangyiNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23363CBF1CCB7D7B000366BD /* wangyiNewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23363CCF1CCB7D7B000366BD /* Build configuration list for PBXNativeTarget "wangyiNewsUITests" */;
+			buildPhases = (
+				23363CBC1CCB7D7B000366BD /* Sources */,
+				23363CBD1CCB7D7B000366BD /* Frameworks */,
+				23363CBE1CCB7D7B000366BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23363CC21CCB7D7B000366BD /* PBXTargetDependency */,
+			);
+			name = wangyiNewsUITests;
+			productName = wangyiNewsUITests;
+			productReference = 23363CC01CCB7D7B000366BD /* wangyiNewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23363C941CCB7D7B000366BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "蔡晓凡";
+				TargetAttributes = {
+					23363C9B1CCB7D7B000366BD = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					23363CB41CCB7D7B000366BD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 23363C9B1CCB7D7B000366BD;
+					};
+					23363CBF1CCB7D7B000366BD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 23363C9B1CCB7D7B000366BD;
+					};
+				};
+			};
+			buildConfigurationList = 23363C971CCB7D7B000366BD /* Build configuration list for PBXProject "wangyiNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23363C931CCB7D7B000366BD;
+			productRefGroup = 23363C9D1CCB7D7B000366BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23363C9B1CCB7D7B000366BD /* wangyiNews */,
+				23363CB41CCB7D7B000366BD /* wangyiNewsTests */,
+				23363CBF1CCB7D7B000366BD /* wangyiNewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23363C9A1CCB7D7B000366BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23363CAF1CCB7D7B000366BD /* LaunchScreen.storyboard in Resources */,
+				23363CAC1CCB7D7B000366BD /* Assets.xcassets in Resources */,
+				23363CAA1CCB7D7B000366BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23363CB31CCB7D7B000366BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23363CBE1CCB7D7B000366BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23363C981CCB7D7B000366BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23363CA71CCB7D7B000366BD /* ViewController.m in Sources */,
+				23363CA41CCB7D7B000366BD /* AppDelegate.m in Sources */,
+				23363CA11CCB7D7B000366BD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23363CB11CCB7D7B000366BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23363CBA1CCB7D7B000366BD /* wangyiNewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23363CBC1CCB7D7B000366BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23363CC51CCB7D7B000366BD /* wangyiNewsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23363CB71CCB7D7B000366BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23363C9B1CCB7D7B000366BD /* wangyiNews */;
+			targetProxy = 23363CB61CCB7D7B000366BD /* PBXContainerItemProxy */;
+		};
+		23363CC21CCB7D7B000366BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23363C9B1CCB7D7B000366BD /* wangyiNews */;
+			targetProxy = 23363CC11CCB7D7B000366BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23363CA81CCB7D7B000366BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23363CA91CCB7D7B000366BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23363CAD1CCB7D7B000366BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23363CAE1CCB7D7B000366BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23363CC71CCB7D7B000366BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23363CC81CCB7D7B000366BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23363CCA1CCB7D7B000366BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wangyiNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caixiaofan.wangyiNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		23363CCB1CCB7D7B000366BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wangyiNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caixiaofan.wangyiNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		23363CCD1CCB7D7B000366BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = wangyiNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caixiaofan.wangyiNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wangyiNews.app/wangyiNews";
+			};
+			name = Debug;
+		};
+		23363CCE1CCB7D7B000366BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = wangyiNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caixiaofan.wangyiNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wangyiNews.app/wangyiNews";
+			};
+			name = Release;
+		};
+		23363CD01CCB7D7B000366BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = wangyiNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caixiaofan.wangyiNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = wangyiNews;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		23363CD11CCB7D7B000366BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = wangyiNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caixiaofan.wangyiNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = wangyiNews;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23363C971CCB7D7B000366BD /* Build configuration list for PBXProject "wangyiNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23363CC71CCB7D7B000366BD /* Debug */,
+				23363CC81CCB7D7B000366BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23363CC91CCB7D7B000366BD /* Build configuration list for PBXNativeTarget "wangyiNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23363CCA1CCB7D7B000366BD /* Debug */,
+				23363CCB1CCB7D7B000366BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		23363CCC1CCB7D7B000366BD /* Build configuration list for PBXNativeTarget "wangyiNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23363CCD1CCB7D7B000366BD /* Debug */,
+				23363CCE1CCB7D7B000366BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		23363CCF1CCB7D7B000366BD /* Build configuration list for PBXNativeTarget "wangyiNewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23363CD01CCB7D7B000366BD /* Debug */,
+				23363CD11CCB7D7B000366BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23363C941CCB7D7B000366BD /* Project object */;
+}
