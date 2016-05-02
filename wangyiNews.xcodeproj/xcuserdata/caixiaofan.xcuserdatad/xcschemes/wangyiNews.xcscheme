@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "23363C9B1CCB7D7B000366BD"
+               BuildableName = "&#x4eff;&#x7f51;&#x6613;&#x65b0;&#x95fb;.app"
+               BlueprintName = "wangyiNews"
+               ReferencedContainer = "container:wangyiNews.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "23363CB41CCB7D7B000366BD"
+               BuildableName = "wangyiNewsTests.xctest"
+               BlueprintName = "wangyiNewsTests"
+               ReferencedContainer = "container:wangyiNews.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "23363CBF1CCB7D7B000366BD"
+               BuildableName = "wangyiNewsUITests.xctest"
+               BlueprintName = "wangyiNewsUITests"
+               ReferencedContainer = "container:wangyiNews.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "23363C9B1CCB7D7B000366BD"
+            BuildableName = "&#x4eff;&#x7f51;&#x6613;&#x65b0;&#x95fb;.app"
+            BlueprintName = "wangyiNews"
+            ReferencedContainer = "container:wangyiNews.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "23363C9B1CCB7D7B000366BD"
+            BuildableName = "&#x4eff;&#x7f51;&#x6613;&#x65b0;&#x95fb;.app"
+            BlueprintName = "wangyiNews"
+            ReferencedContainer = "container:wangyiNews.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "23363C9B1CCB7D7B000366BD"
+            BuildableName = "&#x4eff;&#x7f51;&#x6613;&#x65b0;&#x95fb;.app"
+            BlueprintName = "wangyiNews"
+            ReferencedContainer = "container:wangyiNews.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

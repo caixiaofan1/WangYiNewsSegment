@@ -16,7 +16,30 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    NSFileManager *manager = [[NSFileManager alloc]init];
+    self.window.backgroundColor = [UIColor whiteColor];
+    NSArray *hostList = @[@"头条",@"娱乐",@"热点",@"体育",@"泉州",@"网易号",@"财经",@"科技",@"汽车",@"时尚",@"图片",@"跟贴",@"房产",@"直播",@"轻松一刻",@"段子",@"军事",@"历史",@"家居",@"独家",@"游戏",@"健康",@"政务",@"哒哒趣闻",@"美女",@"NBA",@"社会",@"彩票"];
+    
+    NSArray *addList = @[@"漫画",@"影视歌",@"中国足球",@"国际足球",@"CBA",@"跑步",@"手机",@"数码",@"移动互联",@"云课堂",@"态度公开课",@"旅游",@"读书",@"酒香",@"教育",@"亲子",@"暴雪游戏",@"情感",@"艺术",@"博客",@"论坛",@"型男",@"萌宠"];
+    NSArray * paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString * documentDirectory = [paths objectAtIndex:0];
+    
+    NSString * BtnList = [documentDirectory stringByAppendingPathComponent:@"BtnList.txt"];
+    NSString * ADDList = [documentDirectory stringByAppendingPathComponent:@"ADDList.txt"];
+    if (![manager fileExistsAtPath:BtnList] ) {
+        
+        
+        [manager createFileAtPath:BtnList contents:nil attributes:nil];
+        [hostList writeToFile:BtnList atomically:YES];
+
+    }
+    if ( ![manager fileExistsAtPath:ADDList]) {
+        [manager createFileAtPath:ADDList contents:nil attributes:nil];
+        [addList writeToFile:ADDList atomically:YES];
+
+    }
+    
+    
     return YES;
 }
 

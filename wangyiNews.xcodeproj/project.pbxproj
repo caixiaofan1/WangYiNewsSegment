@@ -9,12 +9,24 @@
 /* Begin PBXBuildFile section */
 		23363CA11CCB7D7B000366BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23363CA01CCB7D7B000366BD /* main.m */; };
 		23363CA41CCB7D7B000366BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23363CA31CCB7D7B000366BD /* AppDelegate.m */; };
-		23363CA71CCB7D7B000366BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23363CA61CCB7D7B000366BD /* ViewController.m */; };
 		23363CAA1CCB7D7B000366BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23363CA81CCB7D7B000366BD /* Main.storyboard */; };
 		23363CAC1CCB7D7B000366BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23363CAB1CCB7D7B000366BD /* Assets.xcassets */; };
 		23363CAF1CCB7D7B000366BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23363CAD1CCB7D7B000366BD /* LaunchScreen.storyboard */; };
 		23363CBA1CCB7D7B000366BD /* wangyiNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23363CB91CCB7D7B000366BD /* wangyiNewsTests.m */; };
 		23363CC51CCB7D7B000366BD /* wangyiNewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23363CC41CCB7D7B000366BD /* wangyiNewsUITests.m */; };
+		23363CD41CCB7DD3000366BD /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23363CD31CCB7DD3000366BD /* HomeViewController.m */; };
+		23363CD71CCB8BA3000366BD /* BaseTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23363CD61CCB8BA3000366BD /* BaseTabbarController.m */; };
+		23363CDD1CCBB7B6000366BD /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23363CDC1CCBB7B6000366BD /* BaseNavigationController.m */; };
+		23363CE51CCBBE6B000366BD /* NewsControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23363CE41CCBBE6B000366BD /* NewsControllerTableViewController.m */; };
+		23363CEC1CCBD331000366BD /* 方正隶书繁体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23363CE71CCBC99E000366BD /* 方正隶书繁体.ttf */; };
+		23363CED1CCBD336000366BD /* 隶书_GBK.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 23363CE61CCBC70E000366BD /* 隶书_GBK.TTF */; };
+		237122AC1CCC733A007DA36C /* SegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 237122AB1CCC733A007DA36C /* SegmentView.m */; };
+		237122AF1CCCACDB007DA36C /* ScrollviewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 237122AE1CCCACDB007DA36C /* ScrollviewHeaderView.m */; };
+		237122F41CCCC724007DA36C /* BtnCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 237122F31CCCC724007DA36C /* BtnCollectionView.m */; };
+		237123001CCD0DF5007DA36C /* BtnCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 237122FF1CCD0DF5007DA36C /* BtnCell.m */; };
+		237123041CCD2FC7007DA36C /* CoBtnCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 237123021CCD2FC7007DA36C /* CoBtnCell.m */; };
+		237123051CCD2FC7007DA36C /* CoBtnCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 237123031CCD2FC7007DA36C /* CoBtnCell.xib */; };
+		23776D411CCE0A0800FE5732 /* FileSave.m in Sources */ = {isa = PBXBuildFile; fileRef = 23776D401CCE0A0800FE5732 /* FileSave.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		23363C9C1CCB7D7B000366BD /* wangyiNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wangyiNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23363C9C1CCB7D7B000366BD /* 仿网易新闻.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "仿网易新闻.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23363CA01CCB7D7B000366BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		23363CA21CCB7D7B000366BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		23363CA31CCB7D7B000366BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		23363CA51CCB7D7B000366BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		23363CA61CCB7D7B000366BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		23363CA91CCB7D7B000366BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23363CAB1CCB7D7B000366BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23363CAE1CCB7D7B000366BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +61,30 @@
 		23363CC01CCB7D7B000366BD /* wangyiNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wangyiNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23363CC41CCB7D7B000366BD /* wangyiNewsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wangyiNewsUITests.m; sourceTree = "<group>"; };
 		23363CC61CCB7D7B000366BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23363CD21CCB7DD3000366BD /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		23363CD31CCB7DD3000366BD /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		23363CD51CCB8BA3000366BD /* BaseTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabbarController.h; sourceTree = "<group>"; };
+		23363CD61CCB8BA3000366BD /* BaseTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabbarController.m; sourceTree = "<group>"; };
+		23363CDB1CCBB7B6000366BD /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		23363CDC1CCBB7B6000366BD /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		23363CE31CCBBE6B000366BD /* NewsControllerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsControllerTableViewController.h; sourceTree = "<group>"; };
+		23363CE41CCBBE6B000366BD /* NewsControllerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsControllerTableViewController.m; sourceTree = "<group>"; };
+		23363CE61CCBC70E000366BD /* 隶书_GBK.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "隶书_GBK.TTF"; sourceTree = "<group>"; };
+		23363CE71CCBC99E000366BD /* 方正隶书繁体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "方正隶书繁体.ttf"; sourceTree = "<group>"; };
+		237122AA1CCC733A007DA36C /* SegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentView.h; sourceTree = "<group>"; };
+		237122AB1CCC733A007DA36C /* SegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentView.m; sourceTree = "<group>"; };
+		237122AD1CCCACDB007DA36C /* ScrollviewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollviewHeaderView.h; sourceTree = "<group>"; };
+		237122AE1CCCACDB007DA36C /* ScrollviewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollviewHeaderView.m; sourceTree = "<group>"; };
+		237122F21CCCC724007DA36C /* BtnCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BtnCollectionView.h; sourceTree = "<group>"; };
+		237122F31CCCC724007DA36C /* BtnCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BtnCollectionView.m; sourceTree = "<group>"; };
+		237122FE1CCD0DF5007DA36C /* BtnCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BtnCell.h; sourceTree = "<group>"; };
+		237122FF1CCD0DF5007DA36C /* BtnCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BtnCell.m; sourceTree = "<group>"; };
+		237123011CCD2FC7007DA36C /* CoBtnCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoBtnCell.h; sourceTree = "<group>"; };
+		237123021CCD2FC7007DA36C /* CoBtnCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoBtnCell.m; sourceTree = "<group>"; };
+		237123031CCD2FC7007DA36C /* CoBtnCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoBtnCell.xib; sourceTree = "<group>"; };
+		23776D3E1CCDFCDE00FE5732 /* Common.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.pch; sourceTree = "<group>"; };
+		23776D3F1CCE0A0800FE5732 /* FileSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileSave.h; sourceTree = "<group>"; };
+		23776D401CCE0A0800FE5732 /* FileSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileSave.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +125,7 @@
 		23363C9D1CCB7D7B000366BD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				23363C9C1CCB7D7B000366BD /* wangyiNews.app */,
+				23363C9C1CCB7D7B000366BD /* 仿网易新闻.app */,
 				23363CB51CCB7D7B000366BD /* wangyiNewsTests.xctest */,
 				23363CC01CCB7D7B000366BD /* wangyiNewsUITests.xctest */,
 			);
@@ -101,10 +135,16 @@
 		23363C9E1CCB7D7B000366BD /* wangyiNews */ = {
 			isa = PBXGroup;
 			children = (
+				237122A91CCC6B4E007DA36C /* segmentView */,
+				23363CDF1CCBBE39000366BD /* News */,
 				23363CA21CCB7D7B000366BD /* AppDelegate.h */,
 				23363CA31CCB7D7B000366BD /* AppDelegate.m */,
-				23363CA51CCB7D7B000366BD /* ViewController.h */,
-				23363CA61CCB7D7B000366BD /* ViewController.m */,
+				23363CD21CCB7DD3000366BD /* HomeViewController.h */,
+				23363CD31CCB7DD3000366BD /* HomeViewController.m */,
+				23363CD51CCB8BA3000366BD /* BaseTabbarController.h */,
+				23363CD61CCB8BA3000366BD /* BaseTabbarController.m */,
+				23363CDB1CCBB7B6000366BD /* BaseNavigationController.h */,
+				23363CDC1CCBB7B6000366BD /* BaseNavigationController.m */,
 				23363CA81CCB7D7B000366BD /* Main.storyboard */,
 				23363CAB1CCB7D7B000366BD /* Assets.xcassets */,
 				23363CAD1CCB7D7B000366BD /* LaunchScreen.storyboard */,
@@ -117,7 +157,10 @@
 		23363C9F1CCB7D7B000366BD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				23363CE71CCBC99E000366BD /* 方正隶书繁体.ttf */,
+				23363CE61CCBC70E000366BD /* 隶书_GBK.TTF */,
 				23363CA01CCB7D7B000366BD /* main.m */,
+				23776D3E1CCDFCDE00FE5732 /* Common.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +183,59 @@
 			path = wangyiNewsUITests;
 			sourceTree = "<group>";
 		};
+		23363CDF1CCBBE39000366BD /* News */ = {
+			isa = PBXGroup;
+			children = (
+				23363CE01CCBBE39000366BD /* Controller */,
+				23363CE11CCBBE39000366BD /* Model */,
+				23363CE21CCBBE39000366BD /* View */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		23363CE01CCBBE39000366BD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				23363CE31CCBBE6B000366BD /* NewsControllerTableViewController.h */,
+				23363CE41CCBBE6B000366BD /* NewsControllerTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		23363CE11CCBBE39000366BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		23363CE21CCBBE39000366BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		237122A91CCC6B4E007DA36C /* segmentView */ = {
+			isa = PBXGroup;
+			children = (
+				237122AA1CCC733A007DA36C /* SegmentView.h */,
+				237122AB1CCC733A007DA36C /* SegmentView.m */,
+				237122AD1CCCACDB007DA36C /* ScrollviewHeaderView.h */,
+				237122AE1CCCACDB007DA36C /* ScrollviewHeaderView.m */,
+				237122F21CCCC724007DA36C /* BtnCollectionView.h */,
+				237122F31CCCC724007DA36C /* BtnCollectionView.m */,
+				237122FE1CCD0DF5007DA36C /* BtnCell.h */,
+				237122FF1CCD0DF5007DA36C /* BtnCell.m */,
+				237123011CCD2FC7007DA36C /* CoBtnCell.h */,
+				237123021CCD2FC7007DA36C /* CoBtnCell.m */,
+				237123031CCD2FC7007DA36C /* CoBtnCell.xib */,
+				23776D3F1CCE0A0800FE5732 /* FileSave.h */,
+				23776D401CCE0A0800FE5732 /* FileSave.m */,
+			);
+			path = segmentView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,7 +253,7 @@
 			);
 			name = wangyiNews;
 			productName = wangyiNews;
-			productReference = 23363C9C1CCB7D7B000366BD /* wangyiNews.app */;
+			productReference = 23363C9C1CCB7D7B000366BD /* 仿网易新闻.app */;
 			productType = "com.apple.product-type.application";
 		};
 		23363CB41CCB7D7B000366BD /* wangyiNewsTests */ = {
@@ -207,6 +303,7 @@
 				TargetAttributes = {
 					23363C9B1CCB7D7B000366BD = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 28QAK8GEY6;
 					};
 					23363CB41CCB7D7B000366BD = {
 						CreatedOnToolsVersion = 7.2;
@@ -243,6 +340,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23363CED1CCBD336000366BD /* 隶书_GBK.TTF in Resources */,
+				23363CEC1CCBD331000366BD /* 方正隶书繁体.ttf in Resources */,
+				237123051CCD2FC7007DA36C /* CoBtnCell.xib in Resources */,
 				23363CAF1CCB7D7B000366BD /* LaunchScreen.storyboard in Resources */,
 				23363CAC1CCB7D7B000366BD /* Assets.xcassets in Resources */,
 				23363CAA1CCB7D7B000366BD /* Main.storyboard in Resources */,
@@ -270,9 +370,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23363CA71CCB7D7B000366BD /* ViewController.m in Sources */,
+				23363CE51CCBBE6B000366BD /* NewsControllerTableViewController.m in Sources */,
+				237122AC1CCC733A007DA36C /* SegmentView.m in Sources */,
+				237123001CCD0DF5007DA36C /* BtnCell.m in Sources */,
+				23363CD71CCB8BA3000366BD /* BaseTabbarController.m in Sources */,
+				23776D411CCE0A0800FE5732 /* FileSave.m in Sources */,
 				23363CA41CCB7D7B000366BD /* AppDelegate.m in Sources */,
 				23363CA11CCB7D7B000366BD /* main.m in Sources */,
+				23363CD41CCB7DD3000366BD /* HomeViewController.m in Sources */,
+				23363CDD1CCBB7B6000366BD /* BaseNavigationController.m in Sources */,
+				237122F41CCCC724007DA36C /* BtnCollectionView.m in Sources */,
+				237123041CCD2FC7007DA36C /* CoBtnCell.m in Sources */,
+				237122AF1CCCACDB007DA36C /* ScrollviewHeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,10 +522,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/wangyiNews/Common.pch";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = wangyiNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = caixiaofan.wangyiNews;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "仿网易新闻";
 			};
 			name = Debug;
 		};
@@ -424,10 +538,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/wangyiNews/Common.pch";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = wangyiNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = caixiaofan.wangyiNews;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "仿网易新闻";
 			};
 			name = Release;
 		};
@@ -498,6 +617,7 @@
 				23363CCB1CCB7D7B000366BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23363CCC1CCB7D7B000366BD /* Build configuration list for PBXNativeTarget "wangyiNewsTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +626,7 @@
 				23363CCE1CCB7D7B000366BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23363CCF1CCB7D7B000366BD /* Build configuration list for PBXNativeTarget "wangyiNewsUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +635,7 @@
 				23363CD11CCB7D7B000366BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
