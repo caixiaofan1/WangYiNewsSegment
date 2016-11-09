@@ -80,7 +80,7 @@
     [self addSubview:addBtn];
     
   [[NSNotificationCenter defaultCenter]removeObserver:self name:@"collectionSelect" object:nil];
-    //添加监听
+    //添加监听 点击collectioncell后，需要更新segment的视图
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(collectionSelect:) name:@"collectionSelect" object:nil];
 }
 
@@ -171,12 +171,20 @@
     for (UIButton *btn in btnSelected) {
         if (btn.tag != sender.tag) {
             btn.selected = NO;
-            btn.titleLabel.font = [UIFont systemFontOfSize:15];
-            
+            btn.titleLabel.font = [UIFont systemFontOfSize:14];
+            btn.transform = CGAffineTransformIdentity;
         }
     }
     sender.selected = YES;
-    sender.titleLabel.font = [UIFont systemFontOfSize:18];
+//        [UIView animateWithDuration:2.8 animations:^{
+//
+//        sender.titleLabel.font = [UIFont systemFontOfSize:20];
+//            
+//    }];
+    [UIView animateWithDuration:1 animations:^{
+        sender.transform = CGAffineTransformMakeScale(1.3, 1.3);
+
+    }];
     
     
     if (sender.center.x<_scrollView.bounds.size.width/2) {

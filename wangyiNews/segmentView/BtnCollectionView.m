@@ -43,7 +43,7 @@
         addlist = [[FileSave shareFileSave] loadGameData:@"ADDList.txt"];
         
         //点击 排序删除按钮 收到通知  实现方法
-        [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(sortDelete:) name:@"sortDelete" object:nil];
+        [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(sortDeleted:) name:@"sortDelete" object:nil];
 }
     
     return self;
@@ -79,6 +79,7 @@
         cell.indexPath = indexPath;
         [cell.deleteBtn addTarget:self action:@selector(DeleteAciton:) forControlEvents:UIControlEventTouchUpInside];
         cell.deleteBtn.hidden = YES;
+        cell.imageview.hidden = NO;
         if (self.isChangeLocAndDelete) {
             
             cell.label.textColor = [UIColor blackColor];
@@ -86,7 +87,7 @@
         }
         if (indexPath.row == 0) {
             cell.deleteBtn.hidden = YES;
-            [cell.imageview setHidden:YES];
+            cell.imageview.hidden = YES;
         }
 
     } else
@@ -233,7 +234,7 @@
 
 }
 
-- (void)sortDelete:(NSNotification *)info {
+- (void)sortDeleted:(NSNotification *)info {
 
     NSNumber *number = [info.userInfo objectForKey:@"selectBool"];
     
@@ -279,7 +280,7 @@
         [self addGestureRecognizer:pan];
 
     }
-      [self reloadData];
+//      [self reloadData];
 }
 - (BOOL)collectionView:(UICollectionView *)collectionView canMoveItemAtIndexPath:(NSIndexPath *)indexPath{
     //返回YES允许其item移动
